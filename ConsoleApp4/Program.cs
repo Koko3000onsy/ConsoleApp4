@@ -127,6 +127,27 @@ namespace ConsoleApp4
             //Console.WriteLine($"the area of the circle is {area}");
             //Console.WriteLine($"the circumference of the circle is {circumference}");
             #endregion
+            #region Q6
+            //Console.WriteLine("enter the number of students");
+            //int size = int.Parse(Console.ReadLine());
+            //int[] arr=new int[size];
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.WriteLine($"enter the score of student{i+1} :");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+            //for (int i = 0; i < size; i++)
+            //{
+            //    grades grade=   getgrade(arr[i]);
+            //    Console.WriteLine($"the grade of student {i+1} his score is {arr[i]} is {grade}");
+            //}
+            //double avg = calculateavg(arr);
+            //Console.WriteLine($"the average score of the class is {avg}");
+            // int max = calculatemax(arr);
+            //Console.WriteLine($"the max score of the class is {max}");
+            //int min = calculatemin(arr);
+            //Console.WriteLine($"the min score of the class is {min}");
+            #endregion
 
 
         }
@@ -158,6 +179,49 @@ namespace ConsoleApp4
         //{
         //    area = Math.PI * radius * radius;
         //    circumference = 2 * Math.PI * radius;
+        //}
+        #endregion
+        #region Q6
+        //static grades getgrade(double score)
+        //{
+        //    if (score >= 90) return grades.A;
+        //    else if(score >= 80) return grades.B;
+        //    else if(score >= 70) return grades.C;
+        //    else if(score >= 60) return grades.D;
+        //    else return grades.F;
+        //}
+        //static double calculateavg(int[] arr)
+        //{
+        //    int sum = 0;
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        sum += arr[i];
+        //    }
+        //    return sum / arr.Length;
+        //}
+        //static int calculatemax(int[] arr)
+        //{
+        //    int max = arr[0];
+        //    for (int i = 1; i < arr.Length; i++)
+        //    {
+        //        if (arr[i] > max)
+        //        {
+        //            max = arr[i];
+        //        }
+        //    }
+        //    return max;
+        //}
+        // static int calculatemin(int[] arr)
+        //{
+        //    int min = arr[0];
+        //    for (int i = 1; i < arr.Length; i++)
+        //    {
+        //        if (arr[i] < min)
+        //        {
+        //            min = arr[i];
+        //        }
+        //    }
+        //    return min;
         //}
         #endregion
     }
