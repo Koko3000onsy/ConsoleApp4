@@ -84,8 +84,65 @@ namespace ConsoleApp4
             //double classavg = classsum / (3*4 );
             //Console.WriteLine($"the class average is {classavg}");
             #endregion
+            #region Q4
+            //double result = 0;
+            //Console.WriteLine("enter the value of the first param");
+            //double num=double.Parse(Console.ReadLine());
+            //Console.WriteLine("enter the value of the second param");
+            //double num2=double.Parse(Console.ReadLine());
+            //Console.WriteLine("choose the operation +,-,*,/");
+            //char op=char.Parse(Console.ReadLine());
+            
+            //if(op == '+')
+            //{
+            //    result= add(num, num2);
+            //    Console.WriteLine("resutl = " + result);    
+            //}
+            //else if(op == '-')
+            //{
+            //    result=subtract(num, num2);
+            //    Console.WriteLine("resutl = " + result);
+            //}
+            //else if (op == '*')
+            //{
+            //    result = multiply(num, num2);
+            //    Console.WriteLine("resutl = " + result);
+            //}
+            //else if (op == '/')
+            //{
+            //    result = divide(num, num2);
+            //    Console.WriteLine("resutl = " + result);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("invalid operator");
+            //}
+            #endregion
 
 
         }
+        #region Q4
+        //static double add(double x, double y) 
+        //{ 
+        //return x+ y;
+        //}
+        //static double subtract(double x, double y) 
+        //{
+        //    return x - y;
+        //}
+        //static double multiply(double x, double y)
+        //{
+        //    return x * y;
+        //}
+        //static double divide(double x, double y)
+        //{
+        //    if ( y==0)
+        //    {
+        //        Console.WriteLine("error can not divide by 0 "); 
+        //        return 0;
+        //    }
+        //    return x / y;
+        //}
+        #endregion
     }
 }
