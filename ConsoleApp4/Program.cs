@@ -92,7 +92,7 @@ namespace ConsoleApp4
             //double num2=double.Parse(Console.ReadLine());
             //Console.WriteLine("choose the operation +,-,*,/");
             //char op=char.Parse(Console.ReadLine());
-            
+
             //if(op == '+')
             //{
             //    result= add(num, num2);
@@ -118,6 +118,15 @@ namespace ConsoleApp4
             //    Console.WriteLine("invalid operator");
             //}
             #endregion
+            #region Q5
+            //double area;
+            //double circumference;
+            //Console.WriteLine("enter the radius of the circle");
+            //double radius=double.Parse(Console.ReadLine());
+            //CalculateCircle(radius, out area, out circumference);
+            //Console.WriteLine($"the area of the circle is {area}");
+            //Console.WriteLine($"the circumference of the circle is {circumference}");
+            #endregion
 
 
         }
@@ -142,6 +151,13 @@ namespace ConsoleApp4
         //        return 0;
         //    }
         //    return x / y;
+        //}
+        #endregion
+        #region Q5
+        //static void CalculateCircle(double radius,out double area,out double circumference)
+        //{
+        //    area = Math.PI * radius * radius;
+        //    circumference = 2 * Math.PI * radius;
         //}
         #endregion
     }
