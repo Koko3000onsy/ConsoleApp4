@@ -23,7 +23,7 @@ namespace ConsoleApp4
             //}
             #endregion
             #region ََQ2
-            
+
             //Console.Write("enter the size of array");
             //int size=int.Parse(Console.ReadLine());
             //int[] number = new int[size];
@@ -59,7 +59,31 @@ namespace ConsoleApp4
             //}
 
             #endregion
-
+            #region Q3
+            //int[,] matrix= new int[3, 4];
+            //double classsum = 0;
+            //double sum = 0;
+            //double studentavg = 0;
+            //int total = matrix.GetLength(1);
+            //for (int i = 0; i <matrix.Length; i++)
+            //{
+            //    Console.WriteLine(  $"enter the grade of student {i/total+1} in subject {i%total+1}");
+            //    matrix[i/total,i%total]=int.Parse(Console.ReadLine());
+            //}
+            //for (int i = 0; i < matrix.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < matrix.GetLength(1); j++)
+            //    {
+            //        sum += matrix[i, j];
+            //    }
+            //    studentavg=sum / 4;
+            //    classsum += sum ;
+            //   Console.WriteLine($"the average of student {i+1} is {studentavg}");
+            //    sum = 0;
+            //}
+            //double classavg = classsum / (3*4 );
+            //Console.WriteLine($"the class average is {classavg}");
+            #endregion
 
 
         }
